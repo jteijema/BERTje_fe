@@ -1,16 +1,10 @@
 # BERTje feature extractor for ASReview
 
-This repository houses a dutch feature extractor model for ASReview
+This repository houses a dutch feature extractor model for ASReview. It is based on the following model: [GroNLP/bert-base-dutch-cased](https://huggingface.co/GroNLP/bert-base-dutch-cased).
 
 ## Getting started
 
-Click the `Use this template` button and add/modify the algorithms. Install your new classifier with
-
-```bash
-pip install .
-```
-
-or
+Install the template with:
 
 ```bash
 pip install git+https://github.com/JTeijema/BERTje_fe
