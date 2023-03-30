@@ -16,7 +16,7 @@ The new classifier `bertje` is defined in
 [`asreviewcontrib\models\bertje.py`](asreviewcontrib\models\bertje.py) and can be used in a simulation.
 
 ```bash
-asreview simulate example_data_file.csv -e bertje
+asreview simulate example_data_file.csv -e bertje -m logistic
 ```
 
 ## License
