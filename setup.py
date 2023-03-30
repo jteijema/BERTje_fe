@@ -1,12 +1,12 @@
-from setuptools import setup
 from setuptools import find_namespace_packages
+from setuptools import setup
 
 setup(
-    name='asreview-template-model-extension',
+    name='asreview-bertje',
     version='1.0',
-    description='Example classifier extension',
-    url='https://github.com/asreview/asreview',
-    author='ASReview team',
+    description='BERTje model for ASReview',
+    url='https://github.com/JTeijema/BERTje_fe',
+    author='Jelle Teijema',
     author_email='asreview@uu.nl',
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -23,10 +23,10 @@ setup(
     ],
     entry_points={
         'asreview.models.classifiers': [
-            'nb_example = asreviewcontrib.models:NaiveBayesDefaultParamsModel',
+            # define classifier algorithms
         ],
         'asreview.models.feature_extraction': [
-            # define feature_extraction algorithms
+            'bertje = asreviewcontrib.models:BERTje',
         ],
         'asreview.models.balance': [
             # define balance strategy algorithms
