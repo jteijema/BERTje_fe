@@ -2,6 +2,7 @@ from asreview.models.feature_extraction.base import BaseFeatureExtraction
 from transformers import AutoTokenizer, AutoModel
 import torch
 import numpy as np
+from tqdm import tqdm
 
 class BERTje(BaseFeatureExtraction):
     name = "bertje"
@@ -20,7 +21,7 @@ class BERTje(BaseFeatureExtraction):
         default_embedding = np.zeros((1, self.model.config.hidden_size))
 
         embeddings = []
-        for text in texts:
+        for text in tqdm(texts, desc="Processing texts"):
             if text.strip() == "":
                 embeddings.append(default_embedding)
             else:
