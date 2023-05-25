@@ -7,7 +7,7 @@ This repository houses a dutch feature extractor model for ASReview. It is based
 Install the template with:
 
 ```bash
-pip install git+https://github.com/JTeijema/BERTje_fe
+pip install https://github.com/JTeijema/BERTje_fe/archive/master.zip
 ```
 
 ## Usage
