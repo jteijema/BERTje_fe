@@ -26,7 +26,7 @@ setup(
             # define classifier algorithms
         ],
         'asreview.models.feature_extraction': [
-            'bertje = asreviewcontrib.models:bertje',
+            'bertje = asreviewcontrib.models:BERTje',
         ],
         'asreview.models.balance': [
             # define balance strategy algorithms

@@ -6,7 +6,6 @@ from tqdm import tqdm
 
 class BERTje(BaseFeatureExtraction):
     name = "bertje"
-    label = "bertje"
 
     def __init__(self):
         super(BERTje, self).__init__()
