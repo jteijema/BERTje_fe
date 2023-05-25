@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='asreview-bertje',
-    version='1.0',
+    version='1.0.1',
     description='BERTje model for ASReview',
     url='https://github.com/JTeijema/BERTje_fe',
     author='Jelle Teijema',
